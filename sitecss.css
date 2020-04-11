@@ -1,0 +1,44 @@
+/********************************************************************
+I declare that my assignment is wholly my own work in accordance with Seneca
+Academic Policy. No part of this assignment has been copied manually or
+electronically from any other source (including web sites) except for the
+information supplied by the WEB222 instructors and / or made available in this
+assignment for my use.
+I also declare that no part of this assignment has been distributed to other
+students.
+Name: Angelika Mendoza Torres
+Dated: April 11 2020
+********************************************************************/
+
+/*Header*/
+.header {width: 960px; margin:0 auto;}
+.header h1 {text-transform: uppercase;}
+header {background-color: rgb(228, 19, 19); padding:10px 30px; }
+
+/* Navigation Bar*/
+nav{padding: 8px; background-color: #000000; color: #FFFFFF; text-align: center; }
+nav p {font-style: italic; font-size: large;}
+
+/* Aside */
+aside {float: left; width: 192px; transition: width 2s;;}
+.header aside p{font-family: Arial;}
+
+/* Main */
+.main {float:left; width: 768px;}
+.main {background-color: gray;}
+.main img {width: 150px; height: 220px;}
+.main figure {display: inline-block;}
+.main figcaption {font-family: Arial; font-weight: bold;}
+
+/* Footer */
+footer {clear:both; background-color: #000000; color: #FFFFFF; padding:10px; text-align: right;}
+footer h2 {margin:0px; text-transform: uppercase; font-size:13px; padding:0 5px; font-style: italic;}
+
+/* Mobile responsiveness*/
+@media only screen and (max-width: 960px)
+{
+   .header{text-align: center; width: 100%;}
+   .nav{text-align: center; width: 100%;}
+   aside {float: none; width: 100%;text-align: center;}
+   .main {float: none; width: 100%;}
+}
